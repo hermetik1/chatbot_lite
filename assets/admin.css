@@ -1,0 +1,8 @@
+/* Admin styles for Fonts Localizer Lite */
+.fl-admin-content {
+  margin-top: 16px;
+}
+
+.fl-result-ok { color: #1e8e3e; }
+.fl-result-err { color: #d63638; }
+
