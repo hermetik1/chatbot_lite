@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ruleset name="Dual Chatbot Plugin">
+  <description>PHPCS using WordPress Coding Standards.</description>
+  <arg name="basepath" value="."/>
+  <file>dual-chatbot-plugin.php</file>
+  <file>includes</file>
+  <exclude-pattern>vendor/*</exclude-pattern>
+  <exclude-pattern>node_modules/*</exclude-pattern>
+  <exclude-pattern>assets/js/chatbot.min.js</exclude-pattern>
+  <exclude-pattern>assets/css/chatbot.min.css</exclude-pattern>
+
+  <config name="testVersion" value="8.2-"/>
+  <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/phpcompatibility/php-compatibility,vendor/phpcompatibility/phpcompatibility-all,vendor/phpcsstandards/phpcsutils,vendor/sirbrillig/phpcs-variable-analysis"/>
+
+  <rule ref="WordPress-Core"/>
+  <rule ref="WordPress-Extra"/>
+  <rule ref="WordPress-Docs"/>
+
+  <!-- Enforce safe DB usage -->
+  <!-- WordPress DB rules entfernt, da Standard nicht verfügbar -->
+
+  <!-- PHPCompatibility (deckt veraltete Syntax/Funktionen ab) -->
+  <rule ref="PHPCompatibility"/>
+
+  <rule ref="Generic.Files.LineLength">
+    <properties>
+      <property name="lineLimit" value="140"/>
+      <property name="absoluteLineLimit" value="180"/>
+      <property name="ignoreComments" value="true"/>
+    </properties>
+  </rule>
+</ruleset>

@@ -1,0 +1,856 @@
+# Copyright (C) 2025 Nemanja Stojakovic
+# This file is distributed under the same license as the Dual Chatbot Plugin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Dual Chatbot Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dual-chatbot-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-30T13:17:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: dual-chatbot\n"
+
+#. Plugin Name of the plugin
+#: dual-chatbot-plugin.php
+msgid "Dual Chatbot Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: dual-chatbot-plugin.php
+msgid "https://example.com/"
+msgstr ""
+
+#. Description of the plugin
+#: dual-chatbot-plugin.php
+msgid "Provides a dual chatbot for FAQ and member advisory within WordPress. Implements server-side RAG retrieval and integration with OpenAI for conversational support."
+msgstr ""
+
+#. Author of the plugin
+#: dual-chatbot-plugin.php
+msgid "Nemanja Stojakovic"
+msgstr ""
+
+#: dual-chatbot-plugin.php:596
+#: dual-chatbot-plugin.php:1309
+msgid "Nachricht…"
+msgstr ""
+
+#: dual-chatbot-plugin.php:604
+#: dual-chatbot-plugin.php:1320
+msgid "Chat"
+msgstr ""
+
+#: dual-chatbot-plugin.php:609
+msgid "Senden"
+msgstr ""
+
+#: dual-chatbot-plugin.php:610
+msgid "Schließen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:611
+msgid "Minimieren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:612
+msgid "Mikrofon"
+msgstr ""
+
+#: dual-chatbot-plugin.php:613
+msgid "Stopp"
+msgstr ""
+
+#: dual-chatbot-plugin.php:614
+msgid "Übernehmen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:615
+msgid "Abbrechen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:616
+msgid "Chatverlauf"
+msgstr ""
+
+#: dual-chatbot-plugin.php:637
+msgid "Hinweis:"
+msgstr ""
+
+#: dual-chatbot-plugin.php:637
+msgid "Manuelles Profil-URL-Override ist aktiv. Standard ist die automatische Ermittlung."
+msgstr ""
+
+#: dual-chatbot-plugin.php:794
+#: dual-chatbot-plugin.php:795
+#: dual-chatbot-plugin.php:1347
+msgid "Chatbot Einstellungen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:912
+msgid "Allgemeine Einstellungen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:913
+msgid "Aktiviere oder deaktiviere die verschiedenen Chatbot-Modi und passe die Farben an."
+msgstr ""
+
+#: dual-chatbot-plugin.php:916
+msgid "Plugin aktivieren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:923
+msgid "FAQ-Bot aktivieren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:929
+msgid "Berater-Bot aktivieren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:936
+msgid "Profil-URL (optional)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:939
+msgid "Nur für Sonderfälle – Standard ist die automatische Ermittlung über UM/BuddyPress/Account-Seite."
+msgstr ""
+
+#: dual-chatbot-plugin.php:943
+msgid "Account-Seite (optional)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:948
+msgid "-- Keine --"
+msgstr ""
+
+#: dual-chatbot-plugin.php:952
+msgid "Falls gesetzt, wird das Permalink dieser Seite als Profilziel genutzt (sprachspezifisch)."
+msgstr ""
+
+#: dual-chatbot-plugin.php:956
+msgid "Maximale Eingabelänge"
+msgstr ""
+
+#: dual-chatbot-plugin.php:960
+msgid "Maximale Zeichenanzahl je Nutzer-Nachricht (50–8000)."
+msgstr ""
+
+#: dual-chatbot-plugin.php:964
+msgid "Begrüßung"
+msgstr ""
+
+#: dual-chatbot-plugin.php:965
+msgid "Konfiguriere die anfänglichen Begrüßungstexte für FAQ- und Mitglieder-Bot. Die Texte werden beim Öffnen des Chats angezeigt."
+msgstr ""
+
+#: dual-chatbot-plugin.php:968
+msgid "Begrüßung (FAQ-Bot)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:969
+#: dual-chatbot-plugin.php:985
+msgid "Hallo! Ich bin der FAQ-Bot. Wobei kann ich helfen?"
+msgstr ""
+
+#: dual-chatbot-plugin.php:974
+msgid "Mehrzeiliger Text, der beim Öffnen des FAQ-Chats erscheint."
+msgstr ""
+
+#: dual-chatbot-plugin.php:977
+msgid "Begrüßung (Mitglieder-Bot)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:978
+#: dual-chatbot-plugin.php:986
+msgid "Willkommen! Ich bin der Mitglieder-Bot. Wie darf ich unterstützen?"
+msgstr ""
+
+#: dual-chatbot-plugin.php:983
+msgid "Mehrzeiliger Text, der beim Öffnen des Mitglieder-Chats erscheint."
+msgstr ""
+
+#: dual-chatbot-plugin.php:988
+msgid "Live-Vorschau"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1006
+msgid "Primäre Farbe"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1009
+msgid "Akzent-/Markenfarbe: beeinflusst u.a. aktive Zustände und Header-Farbe (falls konfiguriert)."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1067
+#: dual-chatbot-plugin.php:1340
+msgid "Design"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1068
+msgid "Thema, Primärfarbe und (optional) Icon-Farbe. Alle weiteren Farben werden automatisch abgeleitet."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1070
+msgid "Thema"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1074
+msgid "Auto (System)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1075
+msgid "Hell"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1076
+msgid "Dunkel"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1082
+msgid "Primärfarbe"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1089
+msgid "Icon-Farbe (optional)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1091
+msgid "leer = erben"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1092
+msgid "Leer lassen, um von der Textfarbe zu erben."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1094
+msgid "FAQ Header-Titel"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1098
+msgid "Berater Header-Titel"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1102
+msgid "Header-Textfarbe"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1105
+msgid "Leer lassen = automatische Kontrastfarbe zur Primärfarbe."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1107
+msgid "Farben auf Standard"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1110
+msgid "API Schlüssel"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1111
+msgid "Hinterlege hier die benötigten API-Schlüssel. Diese werden ausschließlich serverseitig verwendet."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1113
+msgid "OpenAI API-Key"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1117
+msgid "Whisper API-Key"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1121
+msgid "myablefy API-Key"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1125
+msgid "myablefy API-Endpunkt"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1131
+msgid "Websuche API-Key"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1134
+msgid "Optional: API-Schlüssel für eine benutzerdefinierte Websuche. Wird leer gelassen, wenn keine Authentifizierung erforderlich ist."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1136
+msgid "Websuche API-Endpunkt"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1139
+msgid "Optional: Basis-URL für die Websuche. Verwende {query} als Platzhalter für die Anfrage und {api_key} für den API-Schlüssel, falls erforderlich. Wenn leer, wird DuckDuckGo als Standard verwendet."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1143
+msgid "FAQ ChatGPT Modell"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1155
+msgid "Wähle das ChatGPT-Modell für den FAQ-Bot."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1158
+msgid "Berater ChatGPT Modell"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1170
+msgid "Wähle das ChatGPT-Modell für den Berater-Bot."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1174
+#: dual-chatbot-plugin.php:1342
+msgid "Wissensdatenbank"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1175
+msgid "Lade Text- oder PDF-Dateien hoch, die der FAQ-Bot als Wissensquelle nutzen soll. Nachdem Dateien hochgeladen wurden, kannst Du sie indizieren."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1177
+msgid "FAQ-Dokumente"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1178
+#: dual-chatbot-plugin.php:1623
+#: dual-chatbot-plugin.php:1638
+#: dual-chatbot-plugin.php:1641
+msgid "Wissen neu indizieren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1179
+#: dual-chatbot-plugin.php:1656
+#: dual-chatbot-plugin.php:1670
+#: dual-chatbot-plugin.php:1673
+msgid "Ge¬sprächsverläufe löschen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1182
+#: dual-chatbot-plugin.php:1344
+msgid "Werkzeuge"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1183
+msgid "Nützliche Werkzeuge für Tests, Logging und Wartung."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1185
+msgid "Mitglieder-Verifizierung simulieren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1190
+msgid "Wenn aktiv, werden alle Benutzer als Mitglieder behandelt (Testmodus)."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1192
+msgid "Debug-Log aktivieren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1196
+msgid "Protokolliere API-Aufrufe und Fehler in eine Log-Datei. Pfad: wp-content/uploads/chatbot-debug.log. Erfasst zusätzlich Browser-Fehler (Client-Logs)."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1198
+msgid "Cache leeren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1199
+msgid "Einstellungen zurücksetzen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1202
+msgid "Verhalten & Trigger"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1203
+msgid "Steuere, wann das Chatfenster automatisch geöffnet wird und ob ein Vorab-Formular angezeigt wird."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1208
+msgid "Vorab-Formular aktivieren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1212
+msgid "Wenn aktiv, müssen Besucher vor dem Chat ihren Namen und/oder E-Mail angeben."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1215
+msgid "Name erforderlich"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1219
+msgid "Fordere den Benutzer auf, seinen Namen anzugeben."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1222
+msgid "E-Mail erforderlich"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1226
+msgid "Fordere den Benutzer auf, seine E-Mail-Adresse anzugeben."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1230
+msgid "Websuche aktivieren (nur Mitglieder)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1234
+msgid "Wenn aktiviert, führt der Berater-Bot bei Bedarf eine Websuche durch und fügt Quellen als Fußnoten hinzu."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1237
+msgid "Anzahl Suchergebnisse"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1240
+msgid "Wie viele Suchergebnisse sollen maximal als Quellen erscheinen? (≤5)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1244
+msgid "Popup & Erscheinungsbild"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1245
+msgid "Passe Aussehen und Verhalten des Popup-Buttons sowie des Chatfensters an."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1246
+msgid "Hinweis: Leere Farbkästchen nutzen automatisch die im Stylesheet definierten Standardfarben. ‹Auf Standard zurücksetzen› löscht alle Overrides."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1249
+msgid "Form der Chat-Blase"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1252
+msgid "Rund"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1252
+msgid "Quadratisch"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1259
+msgid "Größe der Chat-Blase"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1262
+msgid "Klein"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1262
+msgid "Mittel"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1262
+msgid "Groß"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1267
+msgid "Bestimmt Breite und Höhe des Chat-Icons."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1270
+msgid "Position des Chat-Icons"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1273
+msgid "Unten rechts"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1273
+msgid "Unten links"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1278
+msgid "Bestimmt, ob das Icon rechts oder links unten angezeigt wird."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1282
+msgid "Popup-Breite (px)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1285
+msgid "Breite des FAQ-Popups in Pixel."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1288
+msgid "Popup-Höhe (px)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1291
+msgid "Höhe des FAQ-Popups in Pixel."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1294
+msgid "Begrüßungsnachricht"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1297
+msgid "Text, der automatisch als Begrüßung angezeigt wird, wenn der FAQ-Chat geöffnet wird."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1301
+msgid "Eigenes Icon (URL)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1304
+msgid "Optional: URL zu einem eigenen Icon. Wenn angegeben, ersetzt das Bild den Standard-Sprechblasen-Button."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1308
+msgid "Eingabe-Platzhalter"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1311
+msgid "Platzhaltertext im Eingabefeld des Chatfensters."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1319
+msgid "Titel im minimierten Chat"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1322
+msgid "Beschriftung des minimierten Chatfensters."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1326
+msgid "Farben auf Standard zurücksetzen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1339
+msgid "Allgemein"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1341
+msgid "API"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1343
+#: dual-chatbot-plugin.php:1431
+msgid "Analytics"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1351
+msgid "Einstellungen gespeichert."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1402
+msgid "Alle Farben auf Standard (Stylesheet) zurücksetzen?"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1409
+msgid "Farben zurückgesetzt."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1412
+msgid "Fehler beim Zurücksetzen."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1432
+msgid "Datenschutzfreundliche Nutzungsmetriken. Inhalte werden nicht gespeichert."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1440
+msgid "Tracking deaktivieren (Opt-out)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1442
+msgid "Wenn aktiviert, sendet der Client keine Analytics-Events."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1446
+msgid "Zeitraum"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1448
+msgid "Heute"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1448
+msgid "7 Tage"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1448
+msgid "30 Tage"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1461
+msgid "Sessions pro User (Ø)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1461
+msgid "Summe Sessions / Distinct Nutzer"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1462
+msgid "Nachrichten pro Session (Ø)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1462
+msgid "User+Bot Nachrichten / Session"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1463
+msgid "Durchschnittliche Antwortzeit"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1463
+msgid "n/v"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1463
+msgid "Zeit bis zur ersten Bot-Antwort"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1464
+msgid "KB-Anteil (Hit-Rate)"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1464
+msgid "Anteil Bot-Antworten mit Knowledge Base"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1542
+msgid "Auf Standard zurücksetzen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1543
+msgid "Setzt alle Farboptionen zurück, sodass die im Stylesheet definierten Standardwerte wieder greifen."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1586
+msgid "Entfernen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1596
+msgid "Datei wirklich löschen?"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1630
+msgid "Möchtest Du die Wissensdatenbank neu indizieren? Dies kann einige Minuten dauern."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1632
+msgid "Indizierung läuft…"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1640
+#: dual-chatbot-plugin.php:1672
+#: dual-chatbot-plugin.php:1704
+#: dual-chatbot-plugin.php:1738
+msgid "Ein Fehler ist aufgetreten."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1662
+msgid "Alle Gesprächsverläufe werden gelöscht. Fortfahren?"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1664
+msgid "Lösche…"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1688
+#: dual-chatbot-plugin.php:1702
+#: dual-chatbot-plugin.php:1705
+msgid "Cache der Wissensdatenbank leeren"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1694
+msgid "Bist Du sicher, dass Du alle Wissensdatenbank-Daten löschen möchtest?"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1696
+msgid "Leere Cache…"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1718
+#: dual-chatbot-plugin.php:1732
+#: dual-chatbot-plugin.php:1739
+msgid "Alle Einstellungen zurücksetzen"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1724
+msgid "Alle Einstellungen (aber nicht die Daten) zurücksetzen?"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1726
+msgid "Setze zurück…"
+msgstr ""
+
+#: dual-chatbot-plugin.php:1762
+#: dual-chatbot-plugin.php:1781
+#: dual-chatbot-plugin.php:1800
+#: dual-chatbot-plugin.php:1859
+#: dual-chatbot-plugin.php:1876
+#: dual-chatbot-plugin.php:1943
+msgid "Keine Berechtigung."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1765
+#: dual-chatbot-plugin.php:1784
+#: dual-chatbot-plugin.php:1803
+#: dual-chatbot-plugin.php:1862
+#: dual-chatbot-plugin.php:1879
+#: dual-chatbot-plugin.php:1946
+msgid "Ungültige Anfrage."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1772
+#, php-format
+msgid "Indizierung abgeschlossen. %d Abschnitte verarbeitet."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1790
+msgid "Datenbankfehler beim Löschen."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1792
+msgid "Alle Gesprächsverläufe wurden gelöscht."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1808
+msgid "Datei nicht gefunden."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1823
+msgid "Datei gelöscht."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1869
+msgid "Die Wissensdatenbank wurde geleert."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1937
+msgid "Alle Einstellungen wurden auf Plugin-Defaults gesetzt."
+msgstr ""
+
+#: dual-chatbot-plugin.php:1952
+msgid "Farben wurden auf Standard zurückgesetzt."
+msgstr ""
+
+#: includes/knowledge-indexer.php:63
+msgid "Forbidden"
+msgstr ""
+
+#: includes/knowledge-indexer.php:218
+#: includes/rest-api.php:766
+#: includes/rest-api.php:809
+#: includes/rest-api.php:1516
+#: includes/rest-api.php:1567
+msgid "OpenAI API Key fehlt."
+msgstr ""
+
+#: includes/knowledge-indexer.php:240
+#: includes/rest-api.php:2044
+msgid "Fehler bei der Erstellung des Embeddings."
+msgstr ""
+
+#: includes/rest-api.php:289
+msgid "Ungültiger Typ."
+msgstr ""
+
+#: includes/rest-api.php:293
+msgid "Session-ID fehlt."
+msgstr ""
+
+#: includes/rest-api.php:347
+msgid "Datenbankfehler."
+msgstr ""
+
+#: includes/rest-api.php:623
+msgid "Zu viele Anfragen. Bitte versuche es später erneut."
+msgstr ""
+
+#: includes/rest-api.php:634
+#: includes/rest-api.php:1022
+#: includes/rest-api.php:1313
+#: includes/rest-api.php:1442
+#: includes/rest-api.php:1911
+msgid "Ungültige Herkunft."
+msgstr ""
+
+#: includes/rest-api.php:655
+#: includes/rest-api.php:1036
+msgid "Leere Nachricht ist nicht erlaubt."
+msgstr ""
+
+#: includes/rest-api.php:659
+#: includes/rest-api.php:663
+#: includes/rest-api.php:1041
+#: includes/rest-api.php:1045
+#, php-format
+msgid "Nachricht ist zu lang (max. %d Zeichen)."
+msgstr ""
+
+#: includes/rest-api.php:804
+msgid "Dein Mitgliedsstatus konnte nicht bestätigt werden."
+msgstr ""
+
+#: includes/rest-api.php:875
+msgid "session_id und sender erforderlich"
+msgstr ""
+
+#: includes/rest-api.php:1215
+msgid "Deine Rolle erlaubt das Senden von Nachrichten nicht. (Erforderlich: SOLO/TEAMS/Administrator)"
+msgstr ""
+
+#: includes/rest-api.php:1226
+#, php-format
+msgid "Zu viele Anfragen. Erlaubt: %1$d in %2$d Minuten."
+msgstr ""
+
+#: includes/rest-api.php:1235
+#, php-format
+msgid "Tageslimit erreicht. Versuche es in %d Minuten erneut."
+msgstr ""
+
+#: includes/rest-api.php:1270
+msgid "Nicht eingeloggt."
+msgstr ""
+
+#: includes/rest-api.php:1303
+msgid "Unbekannter Kontext."
+msgstr ""
+
+#: includes/rest-api.php:1381
+msgid "Keine Audiodatei erhalten."
+msgstr ""
+
+#: includes/rest-api.php:1389
+msgid "Whisper API Key fehlt."
+msgstr ""
+
+#: includes/rest-api.php:1429
+msgid "Fehler bei der Transkription."
+msgstr ""
+
+#: includes/rest-api.php:1547
+#: includes/rest-api.php:1656
+msgid "Fehler bei der Anfrage."
+msgstr ""
+
+#: includes/rest-api.php:1561
+msgid "msgid "Dein Mitgliedsstatus konnte nicht bestätigt werden.""
+msgstr ""
+
+#: includes/rest-api.php:1854
+#: includes/rest-api.php:1885
+msgid "Nicht autorisiert."
+msgstr ""
+
+#: includes/rest-api.php:1870
+msgid "Session nicht gefunden."
+msgstr ""
+
+#: includes/rest-api.php:1896
+msgid "Session nicht gefunden oder keine Berechtigung."
+msgstr ""
+
+#: includes/rest-api.php:2008
+msgid "Unbekannter API-Fehler"
+msgstr ""
