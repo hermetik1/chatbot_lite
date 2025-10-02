@@ -1,0 +1,15 @@
+includes:
+  - vendor/szepeviktor/phpstan-wordpress/extension.neon
+  - vendor/szepeviktor/phpstan-wordpress/stubs/runtime-stubs.neon
+
+parameters:
+  level: 6
+  paths:
+    - dual-chatbot-plugin.php
+    - includes
+  tmpDir: .phpstan-cache
+  checkMissingIterableValueType: false
+  ignoreErrors:
+    - '#Call to unknown function wp_[a-z_]++#'
+    - '#Call to unknown function apply_filters#'
+
